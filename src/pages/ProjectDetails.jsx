@@ -7,7 +7,7 @@ const ProjectDetails = () => {
     <>
       <h1>{location.state.title}</h1>
       <p>{location.state.description}</p>
-      <img style={{ width: 200 }} 
+      <img style={{ width: 500 }} 
       src={location.state.image} 
       alt={location.state.title} />
       <div>
