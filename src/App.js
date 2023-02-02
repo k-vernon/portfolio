@@ -7,6 +7,7 @@ import Contact from './pages/Contact'
 import Resume from './pages/Resume'
 import Projects from './pages/Projects'
 
+
 // COMPONENTS 
 import NavBar from './components/NavBar'
 
@@ -21,6 +22,7 @@ function App() {
         <Route path="/contact" element={< Contact />} />
         <Route path="/projects" element={< Projects />} />
         <Route path="/resume" element={< Resume />} />
+        
       </Routes>
     </>
   );
