@@ -11,8 +11,8 @@ const ProjectDetails = () => {
       src={location.state.image} 
       alt={location.state.title} />
       <div>
-      <a href={location.state.repositoryLink}><button>Github Repo</button></a>
-      <a href={location.state.deploymentLink}><button>Deployment Link</button></a>
+      <a href={location.state.deploymentLink}><button>View App</button></a>
+      <a href={location.state.repositoryLink}><button>View Code</button></a>
       </div>
 
     </>
