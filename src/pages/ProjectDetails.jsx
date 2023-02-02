@@ -9,15 +9,13 @@ const ProjectDetails = () => {
       <p>{location.state.description}</p>
       <img src={location.state.image} alt={location.state.title} />
       <div>
-        <a href={location.state.repositoryLink}>Github Repo</a>
-        <a href={location.state.deploymentLink}>Deployment Link</a>
+      <a href={location.state.repositoryLink}><button>Github Repo</button></a>
+      <a href={location.state.deploymentLink}><button>Deployment Link</button></a>
       </div>
 
     </>
   )
 }
-
-
 
 
 export default ProjectDetails
