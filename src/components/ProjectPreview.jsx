@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 function ProjectPreview(props) {
   return (
     <div>
-      <img 
+      <img style={{ width: 200 }}
         src={props.project.image} 
         alt={props.project.title} 
       />
