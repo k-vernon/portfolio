@@ -8,7 +8,7 @@ function NavBar() {
           <Link to='/' >
             Kiana Vernon
           </Link>
-          <ul>
+          {/* <ul>
               <li>
                   <Link to='/about' >
                     About
@@ -29,8 +29,7 @@ function NavBar() {
                     Projects
                   </Link>
               </li>
-
-          </ul>
+          </ul> */}
       </nav>
   )
 }
