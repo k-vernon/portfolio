@@ -10,7 +10,9 @@ const Header = () => {
         <div className="nav__menu">
           <ul className="nav__list grid">
             <li className="nav__item">
-              <a href="" className="nav__link"></a>
+              <a href="" className="nav__link">
+                <i className="uil uil- nav__icon"></i>
+              </a>
             </li>
           </ul>
         </div>
