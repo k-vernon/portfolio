@@ -1,4 +1,5 @@
 import "./App.css"
+import { Route, Routes } from "react-router-dom";
 
 // COMPONENTS 
 import Header from './components/Header';
@@ -10,21 +11,27 @@ import Qualification from "./components/Qualification/Qualification";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
 import ScrollUp from "./components/ScrollUp/ScrollUp";
+import Portfolio from "./components/Portfolio/Portfolio";
+import PortfolioPage from "./components/PortfolioPage/PortfolioPage"
 
 function App() {
   return (
     <>
-      <Header />
-      <main className='main'>
-        <Home />
-        <About />
-        <Skills />
-        <Services />
-        <Qualification />
-        <Contact />
-      </main>
+        <Header />
+        <main className='main'>
+          <Home />
+          <About />
+          <Skills />
+          <Services />
+          <Portfolio />
+          <Qualification />
+          <Contact />
+        </main>
         <Footer />
         <ScrollUp />
+        <Routes>
+          <Route path='/portfolio-projects' element={<PortfolioPage />} />
+        </Routes>
     </>
   );
 }
