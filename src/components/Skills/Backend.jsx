@@ -7,30 +7,31 @@ const Backend = () => {
 
       <div className="skills__box">
         <div className="skills__group">
-          <div className="skills__data">
-            <i class='bx bx-badge-check' ></i>
 
+          <div className="skills__data">
             <div>
-              <h3 className="skills__name">Node Js</h3>
-              <span className="skills__level">Intermediate</span>
+              <span className="skills__level">
+                <i class="devicon-nodejs-plain"></i>
+              </span>
+              <h3 className="skills__name">NodeJS</h3>
             </div>
           </div>
           
           <div className="skills__data">
-            <i class='bx bx-badge-check' ></i>
-
             <div>
-              <h3 className="skills__name">SQL</h3>
-              <span className="skills__level">Intermediate</span>
+              <span className="skills__level">
+               <i class="devicon-postgresql-plain"></i>
+              </span>
+              <h3 className="skills__name">PostgreSQL</h3>
             </div>
           </div>
 
           <div className="skills__data">
-            <i class='bx bx-badge-check' ></i>
-
             <div>
+              <span className="skills__level">
+                <i class='bx bx-expand-horizontal' ></i>
+              </span>
               <h3 className="skills__name">RESTful Routing</h3>
-              <span className="skills__level">Intermediate</span>
             </div>
           </div>
 
@@ -38,30 +39,31 @@ const Backend = () => {
         </div>
 
         <div className="skills__group">
-          <div className="skills__data">
-            <i class='bx bx-badge-check' ></i>
 
+          <div className="skills__data">
             <div>
+              <span className="skills__level">
+                <i class="devicon-express-original"></i>
+              </span>
               <h3 className="skills__name">Express</h3>
-              <span className="skills__level">Basic</span>
             </div>
           </div>
           
           <div className="skills__data">
-            <i class='bx bx-badge-check' ></i>
-
             <div>
-              <h3 className="skills__name">Mongoose</h3>
-              <span className="skills__level">Intermediate</span>
+              <span className="skills__level">
+                <i class="devicon-mongodb-plain"></i>
+              </span>
+              <h3 className="skills__name">MongoDB</h3>
             </div>
           </div>
 
           <div className="skills__data">
-            <i class='bx bx-badge-check' ></i>
-
             <div>
-              <h3 className="skills__name">JSON API</h3>
-              <span className="skills__level">Intermediate</span>
+              <span className="skills__level">
+                <i class='bx bxs-file-json' ></i>
+              </span>
+              <h3 className="skills__name">JSON:API</h3>
             </div>
           </div>
 

@@ -4,6 +4,7 @@ import './portfolioPage.css'
 
 //COMPONENTS
 import Header from '../Header'
+import Footer from '../Footer/Footer'
 import List from './List'
 import Items from './Items'
 import projects from './ProjectData'
@@ -51,6 +52,7 @@ const PortfolioPage = () => {
           </AnimatePresence>
         </div>
       </section>
+      <Footer />
     </>
   )
 }

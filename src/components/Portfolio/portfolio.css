@@ -45,3 +45,26 @@
   scale: .7;
   margin-top: 2rem;
 }
+
+/* BREAKPOINTS */
+
+/* For large devices */
+@media screen and (max-width: 992px) {
+
+}
+
+/* For medium devices */
+@media screen and (max-width: 768px) {
+
+}
+
+/* For small devices */
+@media screen and (max-width: 350px) {
+  .contact__content {
+    grid-template-columns: 1fr;
+  }
+
+  .portfolio__container {
+    width: 100%;
+  }
+}

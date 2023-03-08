@@ -5,6 +5,7 @@ import CV from '../../assets/Kiana-Resume.pdf'
 import Info from './Info'
 
 const About = () => {
+  
   return (
     <section className="about section" id="about">
       <h2 className="section__title">About Me</h2>
@@ -16,9 +17,17 @@ const About = () => {
         <div className="about__data">
           <Info />
 
-          <p className="about__description">
-          I'm Kiana "Keeks" Vernon, a front-end engineer who brings ideas to life with beautiful and intuitive interfaces. I'm passionate about crafting delightful user experiences, and I have the skills to optimize performance and fix bugs. Whether you require CSS magic or JavaScript mastery, I've got you covered!
-          </p>
+          <div className="about__description">
+            <p className='read__more-container'> 
+              I'm Kiana "Keeks" Vernon, a <span>front-end engineer</span> who brings <span>ideas to life</span> with beautiful and <span>intuitive interfaces</span>. I'm <span>passionate</span> about crafting delightful <span>user experiences</span>, and I have the <span>skills </span>to <span>optimize performance</span> and <span>fix bugs</span>. Whether you require <span>CSS magic</span> or <span>JavaScript mastery</span>, I've got you covered! <br/>
+              <p className='read__more-text'>
+                {/* When I'm not coding or studying, I like to kick back and enjoy some of my favorite hobbies. You can usually find me gaming, drawing, or getting lost in a good book. Oh, and let's not forget about my feathered friend, Louis! Spending time with my adorable bird is always a highlight of my day. Even though I'm passionate about coding, I don't take life too seriously. I try to maintain a positive attitude and have some fun along the way. This outlook has helped me both personally and professionally. If you're looking for a talented front-end engineer who's also down-to-earth and easy to work with, I think I could be just the person you're looking for! */}
+              </p>
+              {/* <div className='read__more-btn'>Read more...</div> */}
+            </p>
+          
+          </div>
+
 
           <a download="" href={CV} className="button button--flex">Download Resume
             <svg

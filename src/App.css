@@ -132,6 +132,15 @@ img {
   margin-bottom: 4rem;
 }
 
+.section__subtitle span {
+  color: rgb(210, 163, 163)
+}
+
+p span {
+  color:rgb(214, 99, 99);
+  /* font-weight: 500; */
+}
+
 .section__title,
 .section__subtitle {
   text-align: center;

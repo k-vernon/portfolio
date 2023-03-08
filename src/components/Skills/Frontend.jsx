@@ -7,30 +7,31 @@ const Frontend = () => {
 
       <div className="skills__box">
         <div className="skills__group">
-          <div className="skills__data">
-            <i class='bx bx-badge-check' ></i>
 
+          <div className="skills__data">
             <div>
+              <span className="skills__level">
+                <i class="devicon-html5-plain "></i>
+              </span>
               <h3 className="skills__name">HTML</h3>
-              <span className="skills__level">Basic</span>
             </div>
           </div>
           
           <div className="skills__data">
-            <i class='bx bx-badge-check'></i>
-
             <div>
+              <span className="skills__level"> 
+                <i class="devicon-css3-plain"></i>
+              </span>
               <h3 className="skills__name">CSS</h3>
-              <span className="skills__level">Advanced</span>
             </div>
           </div>
 
           <div className="skills__data">
-            <i class='bx bx-badge-check' ></i>
-
             <div>
+              <span className="skills__level">
+                <i class="devicon-javascript-plain"></i>
+              </span>
               <h3 className="skills__name">JavaScript</h3>
-              <span className="skills__level">Intermediate</span>
             </div>
           </div>
 
@@ -39,29 +40,29 @@ const Frontend = () => {
 
         <div className="skills__group">
           <div className="skills__data">
-            <i class='bx bx-badge-check' ></i>
-
             <div>
+              <span className="skills__level">
+                <i class="devicon-react-original"></i>
+              </span>
               <h3 className="skills__name">React</h3>
-              <span className="skills__level">Intermediate</span>
             </div>
           </div>
           
           <div className="skills__data">
-            <i class='bx bx-badge-check' ></i>
-
             <div>
+              <span className="skills__level">
+                <i class="devicon-bootstrap-plain"></i>
+              </span>
               <h3 className="skills__name">Bootstrap</h3>
-              <span className="skills__level">Basic</span>
             </div>
           </div>
 
           <div className="skills__data">
-            <i class='bx bx-badge-check' ></i>
-
             <div>
+              <span className="skills__level">
+                <i class="devicon-typescript-plain"></i>
+              </span>
               <h3 className="skills__name">TypeScript</h3>
-              <span className="skills__level">Basic</span>
             </div>
           </div>
 
