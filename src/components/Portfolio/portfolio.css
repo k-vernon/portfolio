@@ -36,6 +36,11 @@
 
 }
 
+.portfolio__icon {
+  scale: 6;
+  color: var(--text-color-dark);
+}
+
 .portfolio__button {
   scale: .7;
   margin-top: 2rem;

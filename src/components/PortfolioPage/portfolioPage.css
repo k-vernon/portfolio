@@ -1,3 +1,141 @@
-.portfolio__content{
-  padding-top: 5.5rem;
+.section__subtitle span {
+  color: red;
 }
+
+.text-cs {
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.card {
+  background-color: var(--container-color);
+  overflow: hidden;
+  text-align: left;
+  position: relative;
+} 
+
+.card-one {
+  padding: 30px 35px;
+  border-radius: 18px;
+}
+
+.card-two {
+  background-color: rgba(238, 238, 238, 0.625);
+  padding: 30px;
+  border-radius: 20px;
+}
+
+.link {
+  display: inline-flex;
+  align-items: center;
+  color: var(--title-color);
+  font-size: var(--small-font-size);
+  font-weight: 700;
+  
+}
+
+.link__icon {
+  color: var(--text-color);
+  margin-left: 20px;
+  transition: all 0.3s var(--transition);
+}
+
+.link:hover .link__icon {
+  margin-left: 15px;
+}
+
+.containerPortfolio{
+  max-width: 1300px;
+  padding-inline: 12px;
+  margin-inline: auto;
+}
+
+/* .portfolioPage {
+  
+} */
+
+.portfolioPage__list-item {
+  color: var(--text-color);
+  font-size: var(--small-font-size);
+  font-weight: 700;
+  padding: 5px;
+  position: relative;
+  transition: all 0.7s var(--transition);
+  background-color: transparent;
+}
+
+.portfolioPage__list-item::before {
+  content: '';
+  width: 0px;
+  height: 2px;
+  max-width: 60%;
+  background-color: var(--text-color);
+  position: absolute;
+  bottom: -12px;
+  left: 0;
+  transition: all 0.3s var(--transition);
+}
+
+.active-work,
+.portfolioPage__list-item:hover{
+  color: var(--title-color-dark);
+}
+
+.active-work::before, 
+.portfolioPage__list-item:hover::before {
+  width: 40px;
+}
+
+.portfolioPage__list {
+  display: flex;
+  justify-content: center;
+  column-gap: 40px;
+  margin-bottom: 60px;
+}
+
+.portfolioPage__container{
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px;
+
+}
+
+.portfolioPage__img-wrapper {
+  border-radius: 18px;
+  overflow: hidden;
+}
+
+.portfolioPage__img {
+  height: 240px;
+  width: 100%;
+  object-fit: cover;
+  vertical-align: middle;
+  transition: all 0.6s var(--transition);
+}
+
+.portfolioPage__items:hover .portfolioPage__img {
+  transform: scale(1.04);
+}
+
+.portfolioPage__category {
+  color: var(--text-color);
+  font-size: var(--smaller-font-size);
+  font-weight: 700;
+  margin-bottom: 5px;
+  display: block;
+}
+
+.portfolioPage__category,
+.portfolio__description {
+  margin-top: 30px;
+}
+
+.portfolioPage__title {
+  font-size: var(--h3-font-size);
+  margin-bottom: 10px;
+} 
+
+.portfolioPage__description {
+  min-height: 125px;
+  margin-bottom: 10px;
+}
+

@@ -1,18 +1,54 @@
-import React from 'react'
+import React, { useState } from 'react'
+import { AnimatePresence } from 'framer-motion'
+import './portfolioPage.css'
 
 //COMPONENTS
 import Header from '../Header'
+import List from './List'
+import Items from './Items'
+import projects from './ProjectData'
+
+
+const allNavList = [ 
+  'all',
+ ...new Set(projects.map((project) => project.category))
+]
+
+console.log(allNavList)
+
 
 const PortfolioPage = () => {
-  console.log('SANITY CHECK!!!')
+  const [projectItems, setMenuItems] = useState(projects)
+  const [navList, setCategories] = useState(allNavList)
+
+  const filterItems= (category) => {
+    if(category === 'all') {
+      setMenuItems(projects)
+      return
+    }
+
+    const newProjectItems = projects.filter(
+      (item) => item.category === category 
+    )
+
+    setMenuItems(newProjectItems)
+  }
+
   return (
     <>
       <Header />
-      <section className="portfolio section" id="home">
-        <div className="portfolio__container container grid">
-          <div className="portfolio__content grid">
-            <div>PortfolioPage</div>
-          </div> 
+      <section className="portfolioPage section" id="work">
+        <h2 className="section__title">Portfolio</h2>
+        <p className="section__subtitle">
+          My <span>Work</span>
+        </p>
+        
+        <List list={navList} filterItems={filterItems} />
+
+        <div className="portfolioPage__container containerPortfolio grid">
+          <AnimatePresence initial={false}>
+            <Items projectItems={projectItems}/>
+          </AnimatePresence>
         </div>
       </section>
     </>

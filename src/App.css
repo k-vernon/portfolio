@@ -48,6 +48,9 @@
   --z-tooltip: 10;
   --z-fixed: 100;
   --z-modal: 1000;
+
+  /*========== transition ==========*/
+  --transition: cubic-bezier(0.3, 0, 0.3, 1)
 }
 
 /* Responsive typography */
@@ -145,6 +148,8 @@ img {
   display: grid;
   gap: 1.5rem;
 }
+
+
 
 /*=============== BUTTONS ===============*/
 .button {
