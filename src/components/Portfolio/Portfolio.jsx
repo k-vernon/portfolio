@@ -21,8 +21,8 @@ const Portfolio = () => {
             Take a deep dive into my portfolio of open source projects, web apps, experimentals, and WIPS.
             </div>
             <Link to='/portfolio'>
-              <button className="portfolio__button button">
-                View Portfolio
+              <button className="portfolio__button button--flex button">
+                View Portfolio <i class='bx bx-landscape button__icon'></i>
               </button>
             </Link>
           </div>

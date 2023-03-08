@@ -14,10 +14,21 @@
   color: var(--title-color);
   margin: 0 var(--mb-1);
   cursor: pointer;
+  background-color: var(--container-color);
+  padding: 0.25rem 1rem;
+  border-radius: 1rem;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  transition: 
+    background-color 0.3s var(--transition),
+    scale 0.3s var(--transition)
+  ;
 }
+
 
 .qualification__button:hover {
   color: var(--title-color-dark);
+  background-color: rgb(228, 228, 228);
+  scale: 1.05;
 }
 
 .qualification__icon {
@@ -27,6 +38,8 @@
 
 .qualification__active {
   color: var(--title-color-dark);
+  background-color: rgb(228, 228, 228);
+  scale: 1.05;
 }
 
 .qualification__sections {

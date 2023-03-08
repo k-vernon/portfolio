@@ -74,6 +74,12 @@
   animation: profile__animate 8s ease-in-out infinite 1s;
 }
 
+.button__icon{
+  margin-left: 8px;
+  font-size: 20px;
+  text-align: center;
+}
+
 @keyframes profile__animate {
   0% {
     border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
