@@ -136,3 +136,66 @@
   margin-bottom: 10px;
 }
 
+.porfolioPage__back-btn{
+  position: relative;
+  transform: scale(0.5);
+  transition: all 0.3s var(--transition);
+  font-size: 30px;
+}
+
+.button__icon-arrow {
+  display: block;
+  font-size: 40px;
+}
+
+/*=============== BREAKPOINTS ===============*/
+/* For large devices */
+@media screen and (max-width: 992px) {
+  .portfolioPage__container {
+    grid-template-columns: repeat(2, 1fr);
+
+  }
+
+  .portfolioPage__list-item {
+    font-size: 12px;
+    padding: 2px;
+  }
+
+  .porfolioPage__back-btn{
+    scale: 0.9;
+    margin-left: 10px;
+  }
+}
+
+/* For medium devices */
+@media screen and (max-width: 576px) {
+  .portfolioPage__container {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* For small devices */
+@media screen and (max-width: 350px) {
+  .portfolioPage__title {
+    font-size: 28px;
+  }
+
+  .portfolioPage__container {
+  }
+
+  .portfolioPage__list-item {
+    color: var(--text-color);
+    font-size: var(--small-font-size);
+    font-weight: 700;
+    padding: 5px;
+    position: relative;
+    transition: all 0.7s var(--transition);
+    background-color: transparent;
+  }
+  
+
+  .portfolioPage__list-item {
+    font-size: 10px;
+    padding: 2px;
+  }
+}

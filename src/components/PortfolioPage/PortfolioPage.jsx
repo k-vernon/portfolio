@@ -54,10 +54,20 @@ const PortfolioPage = () => {
     <>
       <Header />
       <section className="portfolioPage section" id="work">
-        <h2 className="section__title">Portfolio</h2>
-        <p className="section__subtitle">
-          My Work
-        </p>
+        
+          <a href='/' className='porfolioPage__back-btn button button--flex '>
+          <i class='bx bx-left-arrow-alt button__icon-arrow' ></i>
+            Back
+          </a>
+        <div>
+          <h2 className="section__title">
+            Portfolio
+          </h2>
+          <p className="section__subtitle">
+            My Work
+          </p>
+
+        </div>
         
         <List list={navList} filterItems={filterItems} />
 
