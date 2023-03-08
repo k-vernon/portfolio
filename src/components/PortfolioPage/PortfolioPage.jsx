@@ -19,7 +19,7 @@ console.log(allNavList)
 
 const PortfolioPage = () => {
   const [projectItems, setMenuItems] = useState(projects)
-  const [navList, setCategories] = useState(allNavList)
+  const [navList] = useState(allNavList)
 
   const filterItems= (category) => {
     if(category === 'all') {
