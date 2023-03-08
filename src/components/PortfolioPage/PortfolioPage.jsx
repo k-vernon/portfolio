@@ -1,5 +1,7 @@
 import React, { useState } from 'react'
 import { AnimatePresence } from 'framer-motion'
+import { useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
 import './portfolioPage.css'
 
 //COMPONENTS
@@ -16,6 +18,17 @@ const allNavList = [
 ]
 
 console.log(allNavList)
+
+
+
+const ScrollToTop = () => {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
+};
 
 
 const PortfolioPage = () => {
@@ -35,13 +48,15 @@ const PortfolioPage = () => {
     setMenuItems(newProjectItems)
   }
 
+  ScrollToTop()
+
   return (
     <>
       <Header />
       <section className="portfolioPage section" id="work">
         <h2 className="section__title">Portfolio</h2>
         <p className="section__subtitle">
-          My <span>Work</span>
+          My Work
         </p>
         
         <List list={navList} filterItems={filterItems} />
