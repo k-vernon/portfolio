@@ -60,7 +60,7 @@ const Contact = () => {
         </div>
 
         <div className="contact__content">
-          <h3 className="contact__title">Don't be shy! Say hello.</h3>
+          <h3 className="contact__title">Don't be shy, say hello!</h3>
 
           <form ref={form} onSubmit={sendEmail}className="contact__form">
             <div className="contact__form-div">
@@ -68,7 +68,7 @@ const Contact = () => {
               <input 
                 type='name' 
                 name='name' 
-                className='contact__form-input' placeholder='Insert your naem'
+                className='contact__form-input' placeholder='Insert your name'
               />
             </div>
 
@@ -88,7 +88,7 @@ const Contact = () => {
                 id="" 
                 cols="30" 
                 rows="10" 
-                className='contact__form-input' placeholder='Write your project'
+                className='contact__form-input' placeholder='Write your message'
               ></textarea>
             </div>
 

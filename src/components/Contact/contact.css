@@ -49,7 +49,7 @@
 .contact__button {
   color: var(--text-color);
   font-size: var(--small-font-size);
-  display: inline;
+  display: flex;
   align-items: center;
   justify-content: center;
   column-gap: 0.25rem;
