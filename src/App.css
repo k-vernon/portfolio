@@ -168,10 +168,16 @@ p span {
   padding: 1.25rem 2rem;
   border-radius: 1rem;
   font-weight: var(--font-medium);
+  transition: 
+    background-color 0.3s var(--transition),
+    scale 0.3s var(--transition)
+  ;
 }
 
 .button:hover {
   background-color: var(--title-color-dark);
+  scale: 1.05;
+  
 }
 
 .button__icon {

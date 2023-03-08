@@ -18,7 +18,7 @@ const Portfolio = () => {
 
           <div className="portfolio__description">
             <div className="portfolio__blip ">
-              Open source projects, web apps, experimentals and WIPS.
+            Take a deep dive into my portfolio of open source projects, web apps, experimentals, and WIPS.
             </div>
             <Link to='/portfolio'>
               <button className="portfolio__button button">
