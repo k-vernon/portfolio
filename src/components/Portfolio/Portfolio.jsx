@@ -4,6 +4,9 @@ import './portfolio.css'
 import PortfolioImg from '../../assets/profile2.jpg'
 
 const Portfolio = () => {
+  const sanityCheck = () => {
+    console.log('SANITY CHECK!!!')
+  }
   return (
     <section className="portfolio section" id="portfolio">
       <h2 className="section__title">Portfolio</h2>
@@ -20,7 +23,7 @@ const Portfolio = () => {
             <div className="portfolio__blip ">
               Open source projects, web apps, experimentals and WIPS.
             </div>
-            <Link to='/portfolio-projects'>
+            <Link to='/portfolio'>
               <button className="portfolio__button button">
                 View Portfolio
               </button>

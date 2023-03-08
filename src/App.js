@@ -12,7 +12,7 @@ import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
 import ScrollUp from "./components/ScrollUp/ScrollUp";
 import Portfolio from "./components/Portfolio/Portfolio";
-import PortfolioPage from "./components/PortfolioPage/PortfolioPage"
+
 
 function App() {
   return (
@@ -29,9 +29,7 @@ function App() {
         </main>
         <Footer />
         <ScrollUp />
-        <Routes>
-          <Route path='/portfolio-projects' element={<PortfolioPage />} />
-        </Routes>
+        
     </>
   );
 }
