@@ -68,16 +68,16 @@ const Contact = () => {
               <input 
                 type='name' 
                 name='name' 
-                className='contact__form-input' placeholder='Insert your email'
+                className='contact__form-input' placeholder='Insert your naem'
               />
             </div>
 
             <div className="contact__form-div">
-              <label htmlFor="" className="contact__form-tag">Mail</label>
+              <label htmlFor="" className="contact__form-tag">Email</label>
               <input 
                 type='email'
                 name='email' 
-                className='contact__form-input' placeholder='Insert your name'
+                className='contact__form-input' placeholder='Insert your email'
               />
             </div>
 
