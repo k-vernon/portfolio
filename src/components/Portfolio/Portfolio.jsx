@@ -4,9 +4,6 @@ import './portfolio.css'
 import PortfolioImg from '../../assets/profile2.jpg'
 
 const Portfolio = () => {
-  const sanityCheck = () => {
-    console.log('SANITY CHECK!!!')
-  }
   return (
     <section className="portfolio section" id="portfolio">
       <h2 className="section__title">Portfolio</h2>
