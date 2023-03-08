@@ -1,6 +1,7 @@
 
 .home__container {
   row-gap: 7rem;
+  overflow: hidden;
 }
 
 .home__content {
@@ -78,6 +79,22 @@
   margin-left: 8px;
   font-size: 20px;
   text-align: center;
+}
+
+.wave {
+  position: absolute;
+  z-index: -1;
+  top: -2em;
+  scale: 1;
+  opacity: 10%;
+}
+
+.wave2 {
+  position: absolute;
+  z-index: -1;
+  top: 1em;
+  scale: 1;
+  opacity: 5%;
 }
 
 @keyframes profile__animate {
