@@ -22,13 +22,51 @@
   border-radius: 20px;
 }
 
+.card-three {
+  text-align: center;
+  justify-content: center;
+  font-size: 2em;
+}
+
+.git--img{
+  display: flex;
+  justify-content: center;
+  font-size: 5em;
+  background-color: var(--container-color);
+  border-radius: 18px;
+  align-items: center;
+  margin-bottom: 0.5em;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  
+}
+
+.git--btn {
+  display: flex;
+  justify-content: center;
+  font-size: 2em;
+  scale: 0.4;
+  background-color: var(--title-color);
+  color: var(--container-color);
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+  font-weight: var(--font-medium);
+  transition: 
+    background-color 0.3s var(--transition),
+    scale 0.3s var(--transition)
+  ;
+  align-items: center;
+}
+
+.git--btn:hover {
+  scale: 0.5;
+}
+
 .link {
   display: inline-flex;
   align-items: center;
   color: var(--title-color);
   font-size: var(--small-font-size);
   font-weight: 700;
-  
 }
 
 .link__icon {
@@ -157,9 +195,6 @@
   transform: translateX(0.25rem);
 }
 
-.portfolioPage__icon-arrow{
-
-}
 
 .button__icon-arrow {
   display: block;

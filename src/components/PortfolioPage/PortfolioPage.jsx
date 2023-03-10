@@ -73,6 +73,13 @@ const PortfolioPage = () => {
         <div className="portfolioPage__container containerPortfolio grid">
           <AnimatePresence initial={false}>
             <Items projectItems={projectItems}/>
+            
+            <div className='portfolioPage__items card card-two card-three'>
+              <i class='bx bxl-github portfolioPage__img git--img' ></i>
+              <h3 className="portfolioPage__title">View More Projects </h3>
+              <a target="_blank" rel='noreferrer' href='https://github.com/k-vernon' className='portfolioPage__description button--flex git--btn'>Github</a>
+            </div>
+
           </AnimatePresence>
         </div>
       </section>
