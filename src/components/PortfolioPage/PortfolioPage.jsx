@@ -66,11 +66,10 @@ const PortfolioPage = () => {
           <p className="section__subtitle">
             My Work
           </p>
-
         </div>
         
         <List list={navList} filterItems={filterItems} />
-
+        
         <div className="portfolioPage__container containerPortfolio grid">
           <AnimatePresence initial={false}>
             <Items projectItems={projectItems}/>

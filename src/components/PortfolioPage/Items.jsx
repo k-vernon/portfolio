@@ -7,7 +7,7 @@ const Items = ({ projectItems }) => {
   return (
     <>
       {projectItems.map((projectItem) => {
-        const { id, img, category, title, description } = projectItem;
+        const { id, img, category, title, description, repositoryLink, deploymentLink } = projectItem;
         return(
           <motion.div 
             layout 
@@ -26,10 +26,19 @@ const Items = ({ projectItems }) => {
             <h3 className="portfolioPage__title">{title}</h3>
             <p className="portfolioPage__description">{description}</p>
             
-            {/* <a href="" className="link">
-              Learn More
-              <FaArrowRight className='link__icon'></FaArrowRight>
-            </a> */}
+
+            
+            <div>
+              <a target="_blank" rel='noreferrer' href={deploymentLink} className="link site__link ">
+              Visit Website
+              <i  class='bx bx-right-arrow-alt portfolioPage__icon-arrow' ></i>
+              </a> <br/>
+              <a target="_blank" rel='noreferrer' href={repositoryLink} className="link repo__link">
+              Source Code
+              <i class='bx bx-right-arrow-alt portfolioPage__icon-arrow' ></i>
+              </a>
+            </div>
+            
 
           </motion.div>
         )

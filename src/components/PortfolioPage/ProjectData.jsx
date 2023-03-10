@@ -13,7 +13,7 @@ const projects = [
   {
     id: 2,
     title: "Censys: Polling App",
-    description: "Let your voice be heard with Censys: the polling and surveying app that gets to the answer! Create, post, and vote on others' polls. Users can edit their polls as well as delete them.",
+    description: "Let your voice be heard with Censys: the polling and surveying app that gets to the answer! Create, post, and vote on others' polls. Users can edit their polls as well as delete them. *DEMO",
     category: "Web Application",
     img: "https://camo.githubusercontent.com/33537d6dcf11f3fcbe57c78d7df682ad0aa945e309d535958dbea902b687d07e/68747470733a2f2f692e696d6775722e636f6d2f345069477255702e706e67",
     repositoryLink: "https://github.com/k-vernon/poll-app",
