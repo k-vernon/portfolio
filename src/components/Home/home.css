@@ -60,19 +60,31 @@
   margin-bottom: var(--mb-3);
 }
 
+.bubble {
+  width: 300px;
+  height: 300px;
+  background-color: red;
+  object-fit: contain;
+  position: absolute;
+  margin: auto;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  top: 0;
+}
 
 .home__img {
-  background: url(../../assets/profile1.JPG);
+  background: url(../../assets/woman-tech.svg);
   background-repeat: no-repeat;
   background-position-x: center;
-  background-position-y: 20%;
   background-size: cover;
-  box-shadow: inset 0 0 0 9px rgb(255 255 255 / 30%);
   order: 1;
   justify-self: center;
   width: 300px;
   height: 300px;
-  animation: profile__animate 8s ease-in-out infinite 1s;
+  animation: 
+    profile__animate 2s ease alternate infinite 1s,
+    profile-border__animate 7s ease-in-out infinite;
 }
 
 .button__icon{
@@ -85,7 +97,7 @@
   position: absolute;
   z-index: -1;
   top: -2em;
-  scale: 1;
+  scale: 1; 
   opacity: 10%;
 }
 
@@ -98,6 +110,12 @@
 }
 
 @keyframes profile__animate {
+  to{
+    transform: translateY(-20px);
+  }
+}
+
+@keyframes profile-border__animate {
   0% {
     border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
   }
@@ -109,6 +127,7 @@
   100% {
     border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
   }
+  
 }
 
 .home__scroll {

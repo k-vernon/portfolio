@@ -1,7 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import './portfolio.css'
-import PortfolioImg from '../../assets/portfolioImg.jpeg'
 
 const Portfolio = () => {
   return (
@@ -13,7 +12,7 @@ const Portfolio = () => {
 
         <div className="portfolio__content">
           <div className="portfolio__image-container">
-            <img src={PortfolioImg} alt="portfolio-pictures" className='portfolio__images' /> 
+            {/* <img src={PortfolioImg} alt="portfolio-pictures" className='portfolio__images' />  */}
           </div>
 
           <div className="portfolio__description">

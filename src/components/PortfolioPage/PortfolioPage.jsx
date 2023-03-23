@@ -63,9 +63,9 @@ const PortfolioPage = () => {
           <h2 className="section__title">
             Portfolio
           </h2>
-          <p className="section__subtitle">
+          <span className="section__subtitle">
             My Work
-          </p>
+          </span>
         </div>
         
         <List list={navList} filterItems={filterItems} />

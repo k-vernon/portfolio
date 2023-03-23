@@ -9,10 +9,12 @@
   /*Color mode HSL(hue, saturation, lightness)*/
   --hue: 0;
   --sat: 0%;
-  --title-color: hsl(var(--hue), var(--sat), 20%);
+  --title-color: #2B2118;
   --title-color-dark: hsl(var(--hue), var(--sat), 0%);
   --text-color: hsl(var(--hue), var(--sat), 46%);
   --body-color: hsl(var(--hue), var(--sat), 98%);
+  --secondary-color: #6F1A07;
+  --secondary-color-dark: #661806;
   --container-color: #fff;
 
   /*========== Font and typography ==========*/
@@ -137,8 +139,8 @@ img {
   color: rgb(210, 163, 163)
 }
 
-p span {
-  color:rgb(253, 13, 13);
+span {
+  color: var(--secondary-color);
   /* font-weight: 500; */
 }
 
@@ -164,7 +166,7 @@ p span {
 /*=============== BUTTONS ===============*/
 .button {
   display: inline-block;
-  background-color: var(--title-color);
+  background-color: var(--secondary-color);
   color: var(--container-color);
   padding: 1.25rem 2rem;
   border-radius: 1rem;
@@ -176,7 +178,7 @@ p span {
 }
 
 .button:hover {
-  background-color: var(--title-color-dark);
+  background-color: var(--secondary-color-dark);
   scale: 1.05;
   
 }

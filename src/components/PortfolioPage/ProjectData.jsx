@@ -37,7 +37,7 @@ const projects = [
     description: "Tic-Tac-Toe game created with HTML, CSS, and Javascript.",
     category: "Web Application",
     technologies: "JavaScript • HTML • CSS",
-    img: "https://i.imgur.com/jygOKPV.png",
+    img: "https://i.imgur.com/lK16l6R.png",
     repositoryLink: "https://github.com/k-vernon/ttt-weekend",
     deploymentLink: "https://vernon-tictactoe.netlify.app/"
   },

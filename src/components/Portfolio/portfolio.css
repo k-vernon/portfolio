@@ -41,6 +41,10 @@
   border-radius: 1em;
   overflow: hidden;
   order: 1; 
+  background-image: url(../../assets/woman-portfolio.svg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .portfolio__description {

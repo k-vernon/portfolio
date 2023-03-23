@@ -19,11 +19,10 @@ const About = () => {
 
           <div className="about__description">
             <p className='read__more-container'> 
-              I'm Kiana "Keeks" Vernon, a <span>front-end engineer</span> who brings <span>ideas to life</span> with beautiful and <span>intuitive interfaces</span>. I'm <span>passionate</span> about crafting delightful <span>user experiences</span>, and I have the <span>skills </span>to <span>optimize performance</span> and <span>fix bugs</span>. Whether you require <span>CSS magic</span> or <span>JavaScript mastery</span>, I've got you covered! <br/>
+              I'm Kiana "Keeks" Vernon, a <span>software engineer</span> who brings <span>ideas to life</span> with beautiful and <span>intuitive interfaces</span>. I'm <span>passionate</span> about crafting delightful <span>user experiences</span>, and I have the <span>skills </span>to <span>optimize performance</span> and <span>fix bugs</span>. Whether you require <span>CSS magic</span> or <span>JavaScript mastery</span>, I've got you covered! <br/><br/>
               <p className='read__more-text'>
-                {/* When I'm not coding or studying, I like to kick back and enjoy some of my favorite hobbies. You can usually find me gaming, drawing, or getting lost in a good book. Oh, and let's not forget about my feathered friend, Louis! Spending time with my adorable bird is always a highlight of my day. Even though I'm passionate about coding, I don't take life too seriously. I try to maintain a positive attitude and have some fun along the way. This outlook has helped me both personally and professionally. If you're looking for a talented front-end engineer who's also down-to-earth and easy to work with, I think I could be just the person you're looking for! */}
+              I love working at the <span>crossroads between tech, art, and design</span>. Drawing on my experiences in <span>content creation</span> and <span>entrepreneurship</span>, I bring a multi-faceted mix of <span>adaptability, creative problem-solving, and innovative marketing strategies</span> that I apply to each and every project!
               </p>
-              {/* <div className='read__more-btn'>Read more...</div> */}
             </p>
           
           </div>
