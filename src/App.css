@@ -9,12 +9,14 @@
   /*Color mode HSL(hue, saturation, lightness)*/
   --hue: 0;
   --sat: 0%;
-  --title-color: #2B2118;
+  /* --title-color: #2B2118; */
+  --title-color: hsl(var(--hue),var(--sat),20%);
   --title-color-dark: hsl(var(--hue), var(--sat), 0%);
   --text-color: hsl(var(--hue), var(--sat), 46%);
   --body-color: hsl(var(--hue), var(--sat), 98%);
-  --secondary-color: #6F1A07;
-  --secondary-color-dark: #661806;
+  --secondary-color: #bf1506;
+  /* --secondary-color: #6F1A07; */
+  --secondary-color-dark: #a61205;
   --container-color: #fff;
 
   /*========== Font and typography ==========*/
@@ -140,6 +142,7 @@ img {
 }
 
 span {
+  /* color: var(--secondary-color); */
   color: var(--secondary-color);
   /* font-weight: 500; */
 }
@@ -166,6 +169,7 @@ span {
 /*=============== BUTTONS ===============*/
 .button {
   display: inline-block;
+  background-color: var(--title-color);
   background-color: var(--secondary-color);
   color: var(--container-color);
   padding: 1.25rem 2rem;

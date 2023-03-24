@@ -75,15 +75,17 @@
 
 .home__img {
   background: url(../../assets/woman-tech.svg);
+  background: url(../../assets/profile1.JPG);
   background-repeat: no-repeat;
   background-position-x: center;
+  background-position-y: 20%;
   background-size: cover;
   order: 1;
   justify-self: center;
   width: 300px;
   height: 300px;
   animation: 
-    profile__animate 2s ease alternate infinite 1s,
+    /* profile__animate 2s ease alternate infinite 1s, */
     profile-border__animate 7s ease-in-out infinite;
 }
 
