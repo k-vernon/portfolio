@@ -28,19 +28,19 @@ function App() {
           <section data-aos="fade-right">
             <Home />
           </section>
-          <section data-aos="fade-right">
+          <section >
             <About />
           </section> 
-          <section data-aos="fade-right">
+          <section >
             <Skills />
           </section>
-          <section data-aos="fade-right">
+          <section >
             <Services />
           </section>
-          <section data-aos="fade-right">
+          <section >
             <Portfolio />
           </section>
-          <section data-aos="fade-right">
+          <section >
             <Qualification />
           </section>
           <section data-aos="fade-right">

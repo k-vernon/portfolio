@@ -8,16 +8,20 @@ const About = () => {
   
   return (
     <section className="about section" id="about">
-      <h2 className="section__title">About Me</h2>
-      <span className="section__subtitle">My Introduction</span>
+      <div data-aos="fade-right">
+        <h2 className="section__title">About Me</h2>
+        <span className="section__subtitle">My Introduction</span>
+      </div>
 
       <div className="about__container container grid">
-        <img src={AboutImg} alt="" className="about__img" />
+        <img src={AboutImg} alt="" className="about__img" data-aos="fade-right" />
 
-        <div className="about__data">
-          <Info />
+        <div className="about__data" >
+          <div data-aos="fade-right"> 
+            <Info />
+          </div>
 
-          <div className="about__description">
+          <div className="about__description" data-aos="fade-right">
             <p className='read__more-container'> 
               I'm Kiana "Keeks" Vernon, a <span>software engineer</span> who brings <span>ideas to life</span> with beautiful and <span>intuitive interfaces</span>. I'm <span>passionate</span> about crafting delightful <span>user experiences</span>, and I have the <span>skills </span>to <span>optimize performance</span> and <span>fix bugs</span>. Whether you require <span>CSS magic</span> or <span>JavaScript mastery</span>, I've got you covered! <br/><br/>
               <p className='read__more-text'>
@@ -28,7 +32,7 @@ const About = () => {
           </div>
 
 
-          <a download="" href={CV} className="button button--flex">Download Resume
+          <a download="" href={CV} className="button button--flex" data-aos="fade-right">Download Resume
             <svg
             class="button__icon"
             xmlns="http://www.w3.org/2000/svg"

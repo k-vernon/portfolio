@@ -20,14 +20,16 @@ const Contact = () => {
 
   return (
     <section className="contact section" id="contact">
-      <h2 className="section__title">Contact Me</h2>
-      <span className="section__subtitle"></span>
+      <div data-aos="fade-right">
+        <h2 className="section__title">Contact Me</h2>
+        <span className="section__subtitle"></span>
+      </div>
 
       <div className="contact__container container grid">
         <div className="contact__content">
           {/* <h3 className="contact__title">Talk to me</h3> */}
 
-          <div className="contact__info">
+          <div className="contact__info" data-aos="fade-right">
 
             <div className="contact__card">
               <i class='bx bx-world contact__card-icon' ></i>
@@ -37,8 +39,8 @@ const Contact = () => {
 
             </div>
 
-            <div className="contact__card">
-            <i class='bx bxs-time contact__card-icon' ></i>
+            <div className="contact__card" >
+              <i class='bx bxs-time contact__card-icon' ></i>
 
               <h3 className="contact__card-title">Availability</h3>
               <span className="contact__card-data">Weekdays 9AM-6PM EST</span>
@@ -59,10 +61,10 @@ const Contact = () => {
           </div>
         </div>
 
-        <div className="contact__content">
-          <h3 className="contact__title">Don't be shy, say hello!</h3>
+        <div className="contact__content" >
+          <h3 className="contact__title" data-aos="fade-right">Don't be shy, say hello!</h3>
 
-          <form ref={form} onSubmit={sendEmail}className="contact__form">
+          <form ref={form} onSubmit={sendEmail}className="contact__form" data-aos="fade-right">
             <div className="contact__form-div">
               <label htmlFor="" className="contact__form-tag">Name</label>
               <input 

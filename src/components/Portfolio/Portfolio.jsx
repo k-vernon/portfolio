@@ -6,10 +6,12 @@ import './portfolio.css'
 const Portfolio = () => {
   return (
     <section className="portfolio section" id="portfolio">
-      <h2 className="section__title">Portfolio</h2>
-      <span className="section__subtitle">See My Work</span>
+      <div data-aos="fade-right">
+        <h2 className="section__title">Portfolio</h2>
+        <span className="section__subtitle">See My Work</span>
+      </div>
       
-      <div className='portfolio__container'>
+      <div className='portfolio__container' data-aos="fade-right">
 
         <div className="portfolio__content">
           <div className="portfolio__image-container">
