@@ -1,5 +1,6 @@
 
 .home__container {
+  min-height: 100%;
   row-gap: 7rem;
   overflow: hidden;
 }
