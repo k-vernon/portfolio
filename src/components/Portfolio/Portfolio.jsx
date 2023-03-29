@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import './portfolio.css'
 
+
 const Portfolio = () => {
   return (
     <section className="portfolio section" id="portfolio">
@@ -12,7 +13,7 @@ const Portfolio = () => {
 
         <div className="portfolio__content">
           <div className="portfolio__image-container">
-            {/* <img src={PortfolioImg} alt="portfolio-pictures" className='portfolio__images' />  */}
+    
           </div>
 
           <div className="portfolio__description">

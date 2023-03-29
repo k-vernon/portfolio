@@ -1,4 +1,9 @@
+// import AOS from 'aos'
+// import { useEffect } from "react"
 import "./App.css"
+import './animation.css'
+import 'aos/dist/aos.css'
+
 
 // COMPONENTS 
 import Header from './components/Header';
@@ -13,18 +18,34 @@ import ScrollUp from "./components/ScrollUp/ScrollUp";
 import Portfolio from "./components/Portfolio/Portfolio";
 
 
+
 function App() {
+  
   return (
     <>
         <Header />
-        <main className='main'>
-          <Home />
-          <About />
-          <Skills />
-          <Services />
-          <Portfolio />
-          <Qualification />
-          <Contact />
+        <main className='main' >
+          <section data-aos="fade-right">
+            <Home />
+          </section>
+          <section data-aos="fade-right">
+            <About />
+          </section> 
+          <section data-aos="fade-right">
+            <Skills />
+          </section>
+          <section data-aos="fade-right">
+            <Services />
+          </section>
+          <section data-aos="fade-right">
+            <Portfolio />
+          </section>
+          <section data-aos="fade-right">
+            <Qualification />
+          </section>
+          <section data-aos="fade-right">
+            <Contact />
+          </section> 
         </main>
         <Footer />
         <ScrollUp />
