@@ -25,7 +25,7 @@ const projects = [
     id: 3,
     title: "Clue Three",
     description: "A web-based guessing game that challenges players to solve a mystery by asking targeted questions to reveal clues.",
-    category: "UX UI Design",
+    category: "UI Design",
     technologies: "JavaScript • HTML • CSS",
     img: "https://camo.githubusercontent.com/c6122dac7fe94df82ed1668924e576a66fbd8b48e13bba1a46382b7847cf72e9/68747470733a2f2f692e696d6775722e636f6d2f387042695742562e706e67",
     repositoryLink: "https://github.com/k-vernon/unit-1-project",
