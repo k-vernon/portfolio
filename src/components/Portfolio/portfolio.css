@@ -85,7 +85,7 @@
       width: 350px;
       grid-template-columns: 1fr;
       grid-gap: 20px;
-      padding: 1rem;
+      padding: 2rem;
     }
   
     .portfolio__image-container {
