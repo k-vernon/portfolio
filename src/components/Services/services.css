@@ -65,6 +65,7 @@
   background-color: var(--container-color);
   padding: 4.5rem 2.5rem 2.5rem;
   border-radius: 1.5rem;
+  /* background-color: aqua; */
 }
 
 .services__model-close {
