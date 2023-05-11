@@ -34,7 +34,7 @@ function App() {
           <section >
             <Skills />
           </section>
-          <section >
+          <section data-aos="fade-right" >
             <Services />
           </section>
           <section >
