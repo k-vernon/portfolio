@@ -1,8 +1,14 @@
+.home {
+  background-color: var(--body-color);
+  /* background-color: aquamarine; */
+}
+
 
 .home__container {
   min-height: 100%;
   row-gap: 7rem;
   overflow: hidden;
+
 }
 
 .container__fill {
